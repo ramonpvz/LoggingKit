@@ -1,0 +1,9 @@
+- Cleaning SQLite
+    /Users/glbmxm0002/Library/Developer/CoreSimulator/Devices/067A2290-6EE8-4969-A425-F51A52EADF19/data/Documents/
+- Re-generating mom file:
+    1) Go to
+        /Applications/XCode.app/Contents/Developer/usr/bin
+    2) Execute
+        ./momc /Users/glbmxm0002/Desktop/ws_united/Sprint13/LoggingKit/LoggingKit/LoggingKitCoreData.xcdatamodeld ~/Desktop/MOM
+- Replace the new mom file in the project
+- Rename SQLite if a new mom file was created due to modifications (i.e. new field, field modified or field deleted)
